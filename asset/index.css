@@ -121,7 +121,6 @@ span.service {
 
 img.tag {
   height: 250px;
-  margin-top: 15px;
 }
 
 .action {
@@ -428,7 +427,6 @@ a.order {
   
   img.tag {
     height: 200px;
-    margin-top: 10px;
   }
   
   .company > p {
