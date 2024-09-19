@@ -96,10 +96,13 @@
         <div>
           <h4 class="plan-title"> Basic </h4>
           <p class="mb-0 text-center for-who">"Small businesses or startups seeking to establish a foundational brand identity."</p>
+          <div class="action">
+           <a href="https://forms.gle/5PmqGovKf3N2TVWUA"> Share your budget, While we <br/> get started</a>
+          </div>      
         </div>
         <ul class="plan-features">
           <li><span><b>Name:</b> Basic name refinement</span></li>
-          <li><span><b>Tone:</b> Simple brand Tone</span></li>
+          <li><span><b>Tone:</b> Simple brand Tone guidelines</span></li>
           <li><span><b>Core Values:</b> Identify 2-3 key values</span></li>
           <li><span><b>Logo:</b> Basic logo design</span></li>
           <li><span><b>Color:</b> 2-3 color palette with guidelines</span></li>
@@ -115,6 +118,9 @@
         <div>
           <h4 class="plan-title"> Standard </h4>
           <p class="mb-0 text-center for-who">"Growing businesses looking to enhance their brand identity with a more polished presence."</p>
+          <div class="action">
+           <a href="https://forms.gle/5PmqGovKf3N2TVWUA"> Share your budget, While we <br/> get started</a>
+          </div>          
         </div>
         <ul class="plan-features">
           <li><span><b>Name:</b> Name refinement with 3 options<span></li>
@@ -140,6 +146,9 @@
         <div>
           <h4 class="plan-title"> Premium </h4>
           <p class="mb-0 text-center for-who">"Established businesses or companies needing a comprehensive brand identity with more advanced features."</p>
+          <div class="action">
+           <a href="https://forms.gle/5PmqGovKf3N2TVWUA"> Share your budget, While we <br/> get started</a>
+          </div>          
         </div>
         <ul class="plan-features">
           <li><span><b>Name:</b> Name refinement with 5 options<span></li>
@@ -196,19 +205,5 @@
   </body>
   
 <script src="../asset/menu.js"> </script>
-<script>
-
-let offerEnds = document.querySelectorAll(".offer-ends");
-
-const now = Date.now();
-const futureDate = new Date('2024-9-30');
-const differenceInMillis = futureDate - now;
-const daysRemaining = Math.ceil(differenceInMillis / (1000 * 60 * 60 * 24));
-
-for (let elem of offerEnds) {
-  elem.innerHTML =  daysRemaining;
-}
-
-</script>
 
 </html>
