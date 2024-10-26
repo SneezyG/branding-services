@@ -140,6 +140,7 @@ span.service {
 
 img.tag {
   height: 280px;
+  max-width: 100%;
   margin-top: 10px;
   animation: shake 5s ease-in-out infinite;
 }
