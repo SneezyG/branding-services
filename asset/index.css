@@ -50,7 +50,7 @@ span.just {
 }
 
 .menu-btn {
-  background-color: #cc4191;
+  background-color: #ba275d;
   padding: 9px 10px;
   border-radius: 5px;
   cursor: pointer;
@@ -154,7 +154,7 @@ img.tag {
 
 .action > a {
   display: inline-block;
-  background-color: #C60026;
+  background-color: #ba275d;
   color: white;
   padding: 12px 14px;
   border-radius: 10px;
@@ -162,11 +162,11 @@ img.tag {
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   opacity: 0.9;
-  border: 3px solid #C60026;
+  border: 3px solid #ba275d;
 }
 
 a.action-order {
-  border: 3px double #C60026;
+  border: 3px double #ba275d;
   background: white;
   color: #353535;
 }
@@ -301,7 +301,7 @@ footer {
 
 .pricing > a {
   display: inline-block;
-  background-color: #C60026;
+  background-color: #ba275d;
   color: white;
   padding: 13px 15px 15px 15px;
   border-radius: 28px;

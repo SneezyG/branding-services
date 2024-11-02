@@ -44,7 +44,7 @@ header > .menu {
 }
 
 .menu-btn {
-  background-color: #cc4191;
+  background-color: #ba275d;
   padding: 9px 10px;
   border-radius: 5px;
   cursor: pointer;
@@ -139,7 +139,7 @@ p.process SVG {
 }
 
 a.order {
-  background-color: #C60026;
+  background-color: #ba275d;
   color: white;
   padding: 15px 17px 17px 17px;
   border-radius: 28px;
