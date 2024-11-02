@@ -250,6 +250,7 @@ div.process > a {
 
 div.process img {
   width: 120px;
+  filter: contrast(1.5);
 }
 
 
