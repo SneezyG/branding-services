@@ -388,6 +388,11 @@ footer {
     color: white;
   }
   
+  .inactive-process-btn {
+    background-color: #691433;
+    color: white;
+  }
+  
 }
 
 
