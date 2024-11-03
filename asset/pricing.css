@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-image: linear-gradient(to top, #86fbf4, #79f1ff, #8fe4ff, #b5d3ff, #d9c1ff, #deb8f8, #e4aff0, #eaa5e6, #d7a3ee, #bfa3f5, #a2a3fa, #7fa4fd);
+  background-image: linear-gradient(to top, #91fffa, #82f4ff, #92e5ff, #b4d3ff, #d7bfff, #deb8fa, #e5b1f3, #ecaaeb, #dbb0f5, #c8b5fb, #b5baff, #a3bfff);
   color: #353535;
   font-size: 17px;
   font-weight: 500;
@@ -445,6 +445,46 @@ footer {
   }
   
 }
+
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-image: linear-gradient(to top, #004a45, #004351, #003a58, #0e2e57, #331e49, #381742, #3c0e3b, #3f0332, #38073a, #2e0d41, #1f1248, #01174d);
+    color: #ffffff;
+  }
+  
+  p.process > a {
+    color: #ffffff !important;
+  }
+  
+  img {
+    filter: grayscale(0.4) !important;
+  }
+  
+  .links {
+    background-color: black;
+    border: 1px solid #3d3d3d;
+  }
+  
+  .links > a {
+    border: 1px solid #3d3d3d;
+  }
+  
+  .link-text {
+    color: white;
+  }
+  
+  .snip1517, .for-who, .plan-price {
+    color: white !important;
+  }
+  
+  .snip1517 .plan {
+    background-image: none;
+    background-color: black;
+  }
+  
+}
+
 
 
 

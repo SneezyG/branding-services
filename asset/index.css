@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-image: linear-gradient(to top, #86fbf4, #79f1ff, #8fe4ff, #b5d3ff, #d9c1ff, #deb8f8, #e4aff0, #eaa5e6, #d7a3ee, #bfa3f5, #a2a3fa, #7fa4fd);
+  background-image: linear-gradient(to top, #91fffa, #82f4ff, #92e5ff, #b4d3ff, #d7bfff, #deb8fa, #e5b1f3, #ecaaeb, #dbb0f5, #c8b5fb, #b5baff, #a3bfff);
   color: #353535;
   font-size: 17px;
   font-weight: 500;
@@ -116,6 +116,8 @@ p.tailored {
   margin-bottom: 10px;
   background-color: white;
   display: inline-block;
+  border-radius: 10px;
+  padding: 10px 0;
 }
 
 span.service {
@@ -672,4 +674,95 @@ a.order {
     font-size: 25px;
   }
   
+}
+
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-image: linear-gradient(to top, #004a45, #004351, #003a58, #0e2e57, #331e49, #381742, #3c0e3b, #3f0332, #38073a, #2e0d41, #1f1248, #01174d);
+    color: #ffffff;
+  }
+  
+  a {
+    color: #ffffff !important;
+  }
+  
+  img {
+    filter: grayscale(0.4) !important;
+  }
+  
+  .links {
+    background-color: black;
+    border: 1px solid #3d3d3d;
+  }
+  
+  .links > a {
+    border: 1px solid #3d3d3d;
+  }
+  
+  .link-text {
+    color: white;
+  }
+  
+  .pattern-back {
+    background-image: url("images/pattern-back-dark.webp");
+  }
+  
+  .pattern-back > h3 {
+    color: #ff5291;
+  }
+  
+  p.tailored {
+    background-color: black;
+  }
+  
+  a.action-order, a.order {
+    background: #380b1c;
+    color: white;
+  }
+  
+  a.action-order {
+    border: 3px double #380b1c;
+  }
+  
+  .question {
+    background-color: black;
+  }
+  
+  .question h4 {
+    color: white;
+  }
+  
+  .why > b {
+    color: #a63c63;
+  }
+  
+  .why > span {
+    color: white;
+  }
+  
+  .word-col {
+    color: white;
+  }
+  
+  .first .word-col {
+    background-image: linear-gradient(to right top, #5e717a, #5c7683, #5b7a8b, #597f95, #58839e, #5285a1, #4c88a3, #458aa5, #3a8b9f, #328b97, #308b8e, #338a84);
+  }
+  
+  .second .word-col {
+    background-image: linear-gradient(to left top, #757575, #75747b, #737382, #717289, #6e7190, #6f6f92, #706c94, #726995, #7a6290, #835b88, #8b537f, #914c73);
+  }
+  
+  .third .word-col {
+    background-image: linear-gradient(to right top, #005239, #005a4c, #00615e, #00686f, #006e7f, #0f7284, #197588, #22798d, #1f7b89, #217d85, #277f80, #2e807a);
+  }
+  
+  .fourth .word-col {
+    background-image: linear-gradient(to left top, #757575, #75747b, #737382, #717289, #6e7190, #6f6f92, #706c94, #726995, #7a6290, #835b88, #8b537f, #914c73);
+  }
+  
+  .fifth .word-col {
+    background-image: linear-gradient(to right top, #5e717a, #5c7683, #5b7a8b, #597f95, #58839e, #5285a1, #4c88a3, #458aa5, #3a8b9f, #328b97, #308b8e, #338a84);
+  }
+
 }
