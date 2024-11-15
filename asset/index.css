@@ -714,6 +714,7 @@ a.order {
   
   p.tailored {
     background-color: black;
+    color: #ff8cb6;
   }
   
   a.action-order, a.order {
@@ -734,7 +735,7 @@ a.order {
   }
   
   .why > b {
-    color: #a63c63;
+    color: #ff8cb6;
   }
   
   .why > span {

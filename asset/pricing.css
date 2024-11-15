@@ -317,6 +317,7 @@ footer {
 
 .action > a {
   display: inline-block;
+  color: #1565C0;
   padding: 8px 10px;
   font-size: 15px;
   border-radius: 10px;
@@ -453,6 +454,11 @@ footer {
     color: #ffffff;
   }
   
+  .action > a {
+    border: 3px double #ff8cb6;
+    color: #3893fc;
+  }
+  
   p.process > a {
     color: #ffffff !important;
   }
@@ -481,6 +487,10 @@ footer {
   .snip1517 .plan {
     background-image: none;
     background-color: black;
+  }
+  
+  .snip1517 .plan-title, .snip1517 .plan-features li:before  {
+    color: #3893fc;
   }
   
 }
