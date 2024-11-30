@@ -244,6 +244,7 @@ a.order {
 .snip1517 .plan-features li {
   padding: 10px 20px;
   position: relative;
+  display: flex;
 }
 
 .snip1517 .plan-features li:before {
@@ -252,16 +253,7 @@ a.order {
   font-size: 20px;
   margin-right: 10px;
   position: relative;
-  top: 2px;
-}
-
-li.plus:after {
-  content: "+";
-  color: #FF8F00;
-  font-size: 22px;
-  margin-left: 5px;
-  position: absolute;
-  top: 8px;
+  bottom: 2px;
 }
 
 footer {
