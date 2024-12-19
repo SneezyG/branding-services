@@ -50,7 +50,7 @@ header > .menu {
   cursor: pointer;
 }
 
-.menu-btn > span {
+.menu-text {
   color: white;
   text-transform: uppercase;
   font-weight: 600;
@@ -367,7 +367,7 @@ footer {
     font-size: 18px;
   }
   
-  .menu-btn > span {
+  .menu-text {
     display: none;
   }
   
