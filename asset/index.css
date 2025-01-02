@@ -629,6 +629,7 @@ a.order {
   
   p.tailored {
     margin: 0 0 10px 0;
+    padding: 10px;
   }
   
   .image-col, .word-col {
