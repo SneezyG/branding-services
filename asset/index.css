@@ -146,7 +146,7 @@ a.last-link {
 }
 
 p.tailored {
-  margin-bottom: 10px;
+  margin: 0 70px 10px 70px;
   background-color: RGBA(230, 234, 245, 0.7);
   display: inline-block;
   border-radius: 10px;
@@ -473,6 +473,10 @@ a.order {
   .pattern-back {
     width: 80%;
   }
+  
+  p.tailored {
+    margin: 0 50px 10px 50px;
+  }
 }
 
 
@@ -516,6 +520,10 @@ a.order {
   
   .pattern-back {
     width: 99%;
+  }
+  
+  p.tailored {
+    margin: 0 30px 10px 30px;
   }
   
   img.tag {
@@ -608,9 +616,8 @@ a.order {
   }
   
   p.tailored {
-    padding: 10px 20px;
+    margin: 0 20px 10px 20px;
   }
-
   
 }
 
@@ -618,6 +625,10 @@ a.order {
 @media only screen and (max-width: 576px) {
   section {
     width: 65%;
+  }
+  
+  p.tailored {
+    margin: 0 0 10px 0;
   }
   
   .image-col, .word-col {
